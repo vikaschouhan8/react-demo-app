@@ -5,7 +5,8 @@ import Sidebar from './Sidebar/Sidebar';
 import Image from './Image/Image'
 import List from './List/List'
 import Footer from './Footer/Footer'
-//import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
+import Division from './Division/Division'
 
 const data = {
     link1 : 'Home',
@@ -13,6 +14,8 @@ const data = {
     link3 : 'Careers',
     link4 : 'Contact'
 }
+
+const arr = [1,2,3,4,5]
 
 const text = () => {
     console.log("Text function")
@@ -40,6 +43,11 @@ ReactDOM.render(
 ReactDOM.render(
     <Footer text={text} />,
     document.getElementById('footer')
+)
+
+ReactDOM.render(
+    <Division data={arr}/>,
+    document.getElementById('division')
 )
 // ReactDOM.render(
 //     <Image picture="./react.jpg" />,

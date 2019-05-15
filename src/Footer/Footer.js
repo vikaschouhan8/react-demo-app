@@ -38,16 +38,13 @@ export default class Footer extends React.Component{
     render(){
         return(
             <>
-            <div id="footerLogo">
                 <Image picture="./react.jpg" />
-            </div>
                 <button onClick={this.props.text}>Change Name</button>                
                 <button onClick={this.change}>Change Name</button>
                 {this.state.name}
                 {/* {element1}
                 {element2} */}
                 {this.state.count}
-            <div className="clear-fix"></div>
             </>
         )
     }

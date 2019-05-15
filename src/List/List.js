@@ -28,8 +28,12 @@ class List extends Component{
     render(){
         return(
             <>
+            <h1>Things to learn in Javascript</h1>
+            <h4>
+                Here are 10 things you definitely have to learn before you can call 
+                yourself a master in JavaScript.
+            </h4>
             <ul>
-                
                 <li>
                     <button onClick={this.handleFunction}> Check State</button>
                    Control Flow. Probably the most basic topic on the list. ...

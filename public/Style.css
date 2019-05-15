@@ -7,76 +7,37 @@
   color: aliceblue;
   height: 70px;
 }
-.color-red{
-  color: #00ff00;
-}
-.sidebar{
-  float: left;
-  width: 20%;
-  height: 480px;
-  background:rgb(187, 187, 187);
-}
-.main{
-  float: left;
-  width: 80%;
-  height: 480px;
-  background: rgb(206, 205, 205);
-}
-#footer{
-  height: 80px;
-  background: rgb(119, 119, 119);
-}
-.clear-fix{
-  clear:both;
-}
-.header h2{
-  font-size: 60px;
-}
-.float{
-  float: left;
-}
-.nav ul{
+#nav ul{
   list-style-type: none;
   float: right;
 }
-.nav ul li{
+#nav ul li{
   float: left;
   padding: 25px 40px 0px 20px;
 }
-a{
+
+#sidenbar {
+  background:rgb(255, 255, 255);
+}
+#sidebar a{
   text-decoration: none;
+  color:rgb(255, 255, 255);
   display: block;
   border-bottom: 1px solid black;
   padding: 10px;
-  font-size: x-large;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background: rgb(196, 193, 193);
 }
-a:hover{
-  color:rgb(211, 211, 211);
-  background: rgb(104, 103, 103); 
+#sidebar a:hover{
+  color:rgb(139, 139, 139)
 }
-.main ul{
-  margin: 10px 10px;
-}
-.main ul li{
-  padding: 10px;
-  margin-left: 25px;
-}
-#list{
-  float:left;
-  width: 65%;
 
+#footer{
+  background:rgb(49, 49, 49);
+  color: aliceblue;
+  height: 70px; 
 }
-#image{
-  float: left;
-  width: 35%;
+
+.division{
+  border: 10px solid black;
+  height: 100px;
 }
-#footerLogo{
-  float: left
-}
-.text-center{
-  text-align: center;
-}
-/* #text{
-  float:left
-} */
