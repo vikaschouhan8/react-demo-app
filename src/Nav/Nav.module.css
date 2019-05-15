@@ -1,0 +1,7 @@
+.colorRed{
+    color: #ff0000;
+}
+
+li:hover{
+    color: white;
+}

@@ -1,0 +1,20 @@
+    handleFunction = (props) =>{ 
+         console.log(this)
+        if(props.data === 'SecCon'){
+            this.setState({
+                name : props.data
+            })
+        }else{
+            this.setState({
+                name : 'Nothing'
+            })
+        }
+    }
+    
+    handleFunction = (nameIt,sonu) =>{ 
+         console.log(nameIt)
+         console.log(sonu.target.value)
+         console.log(sonu)
+    }
+
+<button  value="test" onClick={(testing) => this.handleFunction("handleFunction" ,testing)}> Check State</button>
